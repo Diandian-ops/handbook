@@ -111,6 +111,7 @@ error: failed to push some refs to 'https://github.com/Diandian-ops/handbook'
 该命令的意思是把远程库中的**\*更新合并\***到（**pull=fetch+merge**）本地库中，**–-rebase**的作用是取消掉本地库中刚刚的commit，并把他们**接到**更新后的版本库之中。
 
 ```bash
-git pull --rebase origin master
+git pull origin master
+git push -u origin master
 ```
 
